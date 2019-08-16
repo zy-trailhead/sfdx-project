@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <AssemblyName>sfdx-chan</AssemblyName>
+    <RootNamespace>sfdx-chan</RootNamespace>
+    <ProjectPackageVersion>1.28.5.4</ProjectPackageVersion>
+    <ProjectGuid>{62dc1ae4-2363-489c-9977-9dc8174ec45d}</ProjectGuid>
+    <Name>sfdx-chan</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+</Project>
